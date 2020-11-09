@@ -24,10 +24,34 @@
 }
 
 .text {
-    font-size: 12px;
+    font-size: 1.2rem;
     margin: 0 0 20px;
 }
 
 .time {
     font-weight: bold;
 }
+
+@media (min-width: 500px) {
+	.text {
+		font-size: 1rem;
+	}
+}
+
+@media (min-width: 900px) {
+  .title {
+		font-size: 130%;
+	}
+	.text {
+		font-size: 0.9rem;
+	}
+}
+
+@media (min-width: 1300px) {
+  .title {
+		font-size: 120%;
+	}
+	.text {
+		font-size: 0.8rem;
+	}
+}  
