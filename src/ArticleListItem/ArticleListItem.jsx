@@ -15,7 +15,7 @@ const ArticleListItem = (props) => {
     <li className={styles.container}>
       <article className={styles.article}>
         <div className={styles.wrapper}>
-				  <ArticleImage url={props.article.image._url} title={props.article.title} />
+		  <ArticleImage url={props.article.image._url} title={props.article.title} />
           <h2 className={styles.title}>{props.article.title}</h2>
           {isTextShowing && (
             <div className={styles.text}>
